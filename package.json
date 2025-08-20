@@ -1,25 +1,26 @@
 {
-  "name": "timothea-api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/letitechera/timothea-api.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/letitechera/timothea-api/issues"
-  },
-  "homepage": "https://github.com/letitechera/timothea-api#readme",
-  "dependencies": {
-    "body-parser": "^2.2.0",
-    "express": "^5.1.0"
-  }
+	"name": "timothea-api",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node server.js",
+		"test": "echo \"No test specified\" && exit 0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/letitechera/timothea-api.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"bugs": {
+		"url": "https://github.com/letitechera/timothea-api/issues"
+	},
+	"homepage": "https://github.com/letitechera/timothea-api#readme",
+	"dependencies": {
+		"body-parser": "^2.2.0",
+		"express": "^5.1.0"
+	}
 }
