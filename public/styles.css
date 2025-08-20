@@ -236,10 +236,11 @@ body {
 	border: none;
 	box-shadow: 0 0 0 3px rgba(236, 72, 153, 0.1);
 	box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-	border: 1px solid pink;
+	border: 1px solid #F73E57;
 	background: white;
 	cursor: pointer;
 	transition: 0.3s;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
 
 .exportar:hover {
@@ -254,7 +255,7 @@ body {
 .modal h3 {
 	font-size: 1.25rem;
 	font-weight: 600;
-	color: #1f2937;
+	color: #371f2b;
 	margin-bottom: 0.5rem;
 }
 
@@ -338,6 +339,7 @@ body {
 .item-faltante {
 	cursor: pointer;
 	padding-bottom: 5px;
+	color: #F73E57;
 }
 
 .item-faltante {
@@ -349,7 +351,7 @@ body {
 }
 
 .item-faltante:hover {
-	color: #F73E57;
+	color: #f37283;
 }
 
 @keyframes slideIn {

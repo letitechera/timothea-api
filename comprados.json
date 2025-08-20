@@ -1,17 +1,7 @@
 [
   {
     "id": 3,
-    "name": "Pañales Recién Nacido",
+    "name": "Baberos",
     "buyer": "Leticia"
-  },
-  {
-    "id": 2,
-    "name": "Cochecito",
-    "buyer": "Leticia"
-  },
-  {
-    "id": 1,
-    "name": "Cuna",
-    "buyer": "Gil"
   }
 ]
