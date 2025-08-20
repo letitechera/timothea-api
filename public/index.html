@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Baby Shower - Lista de Compras</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<!-- Header -->
+	<header class="header">
+		<div class="header-content">
+			<h1>Baby Shower de Timothea - Lista de Compras</h1>
+			<p>Esta lista sirve de guía y ayuda para que no se repitan los regalos :)</p>
+		</div>
+	</header>
+
+	<!-- Main Content -->
+	<main class="main-content">
+		<div class="grid">
+			<!-- Faltantes Column -->
+			<div class="card">
+				<div class="card-header">
+					<h2 class="card-title">
+						Faltantes
+						<span id="pendingCount" class="count-badge pending">0</span>
+					</h2>
+				</div>
+				<p class="card-description">Hack click sobre un item para encargarte de él!</p>
+				<div id="faltantesList">
+					<!-- Items will be loaded here -->
+				</div>
+			</div>
+
+			<!-- Ya Comprados Column -->
+			<div class="card">
+				<div class="card-header">
+					<h2 class="card-title">
+						Ya Comprados
+						<span id="completedCount" class="count-badge completed">0</span>
+					</h2>
+				</div>
+				<div id="compradosList">
+					<!-- Completed items will appear here -->
+				</div>
+			</div>
+		</div>
+		<button onclick="exportToExcel()" class="exportar">
+			📥 Exportar listas
+		</button>
+	</main>
+
+	<!-- Modal -->
+	<div id="modal" class="modal">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h3>Querés encargarte de este item?</h3>
+				<p class="modal-subtitle">Genial! Escribí tu nombre para llevar registro :)</p>
+				<p id="itemName" class="modal-item-name"></p>
+			</div>
+
+			<input type="text" id="buyerName" placeholder="Ingresa tu nombre" class="modal-input" maxlength="50">
+
+			<div class="modal-buttons">
+				<button id="cancelBtn" class="modal-button secondary" onclick="closeModal()">
+					Cancelar
+				</button>
+				<button id="confirmBtn" class="modal-button primary" onclick="confirmPurchase()">
+					Confirmar
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+</body>
+
+</html>
