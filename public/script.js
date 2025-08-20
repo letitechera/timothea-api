@@ -10,10 +10,14 @@ async function loadData() {
 
 function renderLists() {
 	const faltantesList = document.getElementById("faltantesList");
+	const faltantesNumero = document.getElementById("pendingCount");
 	const compradosList = document.getElementById("compradosList");
+	const compradosNumero = document.getElementById("completedCount");
 
 	faltantesList.innerHTML = "";
 	compradosList.innerHTML = "";
+	faltantesNumero.innerHTML = faltantes.length;
+	compradosNumero.innerHTML = comprados.length;
 
 	faltantes.forEach(item => {
 		const div = document.createElement("div");
