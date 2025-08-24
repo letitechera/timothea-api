@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Baby Shower - Lista de Compras</title>
+	<title>Baby Shower - Lista de Regalos</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
@@ -19,6 +19,7 @@
 
 	<!-- Main Content -->
 	<main class="main-content">
+		<button id="scrollToFaltantes" class="scroll-btn">Ver regalos ya encargados ▼</button>
 		<div class="grid">
 			<!-- Faltantes Column -->
 			<div class="card">
@@ -28,7 +29,7 @@
 						<span id="pendingCount" class="count-badge pending">0</span>
 					</h2>
 				</div>
-				<p class="card-description">Haz click sobre un item para encargarte de él!</p>
+				<p class="card-description">Hacé click sobre un item de la lista para reservarlo!</p>
 				<div id="faltantesList">
 					<!-- Items will be loaded here -->
 				</div>
@@ -48,7 +49,7 @@
 			</div>
 		</div>
 		<button onclick="exportToExcel()" class="exportar">
-			Exportar listas
+			Exportar listas en Excel
 		</button>
 	</main>
 

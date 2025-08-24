@@ -182,6 +182,11 @@ body {
 	font-weight: bold;
 }
 
+.item-link {
+	color: cornflowerblue;
+	cursor: pointer;
+}
+
 .empty-state {
 	text-align: center;
 	padding: 3rem 0;
@@ -240,12 +245,28 @@ body {
 	background: white;
 	cursor: pointer;
 	transition: 0.3s;
-	color: #1f2937;
+	color: #1f2937 !important;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
 
 .exportar:hover {
 	background: #fdf2f8;
+}
+
+.scroll-btn{
+	display: none;
+	padding: 10px 15px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+	background-color: transparent;
+	border:none;
+	color: #ec4899;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.scroll-btn:hover {
+	color: #F73E57;
 }
 
 .modal-header {
@@ -375,4 +396,11 @@ body {
 	to {
 		opacity: 1;
 	}
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .scroll-btn {
+    display: block; 
+  }
 }

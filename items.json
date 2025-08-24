@@ -1,26 +1,49 @@
 [
   {
     "id": 1,
-    "name": "Pañales Recién Nacido"
+    "name": "Mamadera",
+    "link": "www.google.com"
   },
   {
     "id": 2,
-    "name": "Mamadera"
+    "name": "Pañales recién nacido",
+    "multiple": true
   },
   {
     "id": 3,
-    "name": "Test 2"
+    "name": "Pañales tamaño P",
+    "multiple": true
   },
   {
     "id": 4,
-    "name": "Test 3"
+    "name": "Pañales tamaño M",
+    "multiple": true
   },
   {
     "id": 5,
-    "name": "Test 4"
+    "name": "Pañales tamaño G",
+    "multiple": true
   },
   {
     "id": 6,
+    "name": "Pañales tamaño XG",
+    "multiple": true
+  },
+  {
+    "id": 7,
+    "name": "Pañales tamaño XXG o más",
+    "multiple": true
+  },
+  {
+    "id": 8,
+    "name": "Test 2"
+  },
+  {
+    "id": 10,
+    "name": "Test 4"
+  },
+  {
+    "id": 11,
     "name": "Test 1"
   }
 ]

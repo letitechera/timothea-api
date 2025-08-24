@@ -21,16 +21,33 @@ function renderLists() {
 
 	faltantes.forEach(item => {
 		const div = document.createElement("div");
-		div.textContent = item.name;
 		div.className = "item-faltante";
 		div.onclick = () => openModal(item);
+
+		// Add name
+		const nameSpan = document.createElement("span");
+		nameSpan.textContent = `+ ${item.name}`;
+		div.appendChild(nameSpan);
+
+		// Add link if exists
+		if (item.link) {
+			const link = document.createElement("a");
+			link.id = `link_${item.id}`;
+			link.href = item.link.startsWith("http") ? item.link : `https://${item.link}`; // ✅ fix relative issue
+			link.target = "_blank";
+			link.className = "item-link";
+			link.textContent = " (Ver referencia)";
+			link.addEventListener("click", e => e.stopPropagation()); // ✅ prevents triggering modal
+			div.appendChild(link);
+		}
+
 		faltantesList.appendChild(div);
 	});
 
 	comprados.forEach(item => {
 		const div = document.createElement("div");
 		div.className = "item-comprado";
-		div.textContent = `${item.name} — ${item.buyer}`;
+		div.textContent = `${item.count ? item.count + ' ' : ''}${item.name} — ${item.buyer}`;
 		compradosList.appendChild(div);
 	});
 }
@@ -45,6 +62,14 @@ function openModal(item) {
 function closeModal() {
 	document.getElementById("modal").style.display = "none";
 }
+
+// Scroll to Faltantes
+document.getElementById("scrollToFaltantes").addEventListener("click", () => {
+	document.getElementById("faltantesList").scrollIntoView({
+		behavior: "smooth",
+		block: "start"
+	});
+});
 
 function exportToExcel() {
 	// Build data arrays
