@@ -48,10 +48,6 @@ function renderLists() {
 		const div = document.createElement("div");
 		div.className = "item-comprado";
 		div.textContent = `• ${item.count ? item.count + ' ' : ''}${item.name}`;
-		const span = document.createElement("span");
-		span.className = "item-comprado-buyer";
-		span.textContent = ` — ${item.buyer}`;
-		div.appendChild(span);
 		compradosList.appendChild(div);
 	});
 }
