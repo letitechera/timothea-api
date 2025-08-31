@@ -5,8 +5,23 @@
     "buyer": "Maia & Leti"
   },
   {
-    "id": 30,
+    "id": 47,
     "name": "Bañito",
     "buyer": "Santi Rosso"
+  },
+  {
+    "id": 48,
+    "name": "Sillita de comer",
+    "buyer": "Karen"
+  },
+  {
+    "id": 49,
+    "name": "Chichonera",
+    "buyer": "Let & Santi"
+  },
+  {
+    "id": 50,
+    "name": "Sillita mecedora",
+    "buyer": "Gigi"
   }
 ]
