@@ -185,6 +185,11 @@ body {
 .item-link {
 	color: cornflowerblue;
 	cursor: pointer;
+	transition: 0.5s;
+}
+
+.item-link:hover {
+	color: blueviolet;
 }
 
 .empty-state {
@@ -253,14 +258,14 @@ body {
 	background: #fdf2f8;
 }
 
-.scroll-btn{
+.scroll-btn {
 	display: none;
 	padding: 10px 15px;
 	margin-bottom: 20px;
 	cursor: pointer;
 	transition: 0.3s;
 	background-color: transparent;
-	border:none;
+	border: none;
 	color: #ec4899;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
@@ -360,7 +365,7 @@ body {
 
 .item-faltante {
 	cursor: pointer;
-	padding-bottom: 5px;
+	padding-bottom: 8px;
 	color: #F73E57;
 }
 
@@ -368,12 +373,17 @@ body {
 	cursor: pointer;
 }
 
-.item-comprado {
-	padding-bottom: 5px;
-}
-
 .item-faltante:hover {
 	color: #f37283;
+}
+
+.item-comprado {
+	padding-bottom: 7px;
+}
+
+.item-comprado-buyer {
+	font-style: italic;
+	color: silver;
 }
 
 @keyframes slideIn {
@@ -400,7 +410,7 @@ body {
 
 /* Mobile */
 @media only screen and (max-width: 767px) {
-  .scroll-btn {
-    display: block; 
-  }
+	.scroll-btn {
+		display: block;
+	}
 }

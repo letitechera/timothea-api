@@ -26,7 +26,7 @@ function renderLists() {
 
 		// Add name
 		const nameSpan = document.createElement("span");
-		nameSpan.textContent = `+ ${item.name}`;
+		nameSpan.textContent = `• ${item.name} `;
 		div.appendChild(nameSpan);
 
 		// Add link if exists
@@ -36,7 +36,7 @@ function renderLists() {
 			link.href = item.link.startsWith("http") ? item.link : `https://${item.link}`; // ✅ fix relative issue
 			link.target = "_blank";
 			link.className = "item-link";
-			link.textContent = " (Ver referencia)";
+			link.textContent = "(Ver referencia)";
 			link.addEventListener("click", e => e.stopPropagation()); // ✅ prevents triggering modal
 			div.appendChild(link);
 		}
@@ -47,7 +47,11 @@ function renderLists() {
 	comprados.forEach(item => {
 		const div = document.createElement("div");
 		div.className = "item-comprado";
-		div.textContent = `${item.count ? item.count + ' ' : ''}${item.name} — ${item.buyer}`;
+		div.textContent = `• ${item.count ? item.count + ' ' : ''}${item.name}`;
+		const span = document.createElement("span");
+		span.className = "item-comprado-buyer";
+		span.textContent = ` — ${item.buyer}`;
+		div.appendChild(span);
 		compradosList.appendChild(div);
 	});
 }
@@ -65,7 +69,7 @@ function closeModal() {
 
 // Scroll to Faltantes
 document.getElementById("scrollToFaltantes").addEventListener("click", () => {
-	document.getElementById("faltantesList").scrollIntoView({
+	document.getElementById("completedCount").scrollIntoView({
 		behavior: "smooth",
 		block: "start"
 	});
