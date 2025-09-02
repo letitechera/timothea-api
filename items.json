@@ -1,179 +1,124 @@
 [
-  {
-    "id": 1,
-    "name": "Pañales recién nacido",
-    "multiple": true
-  },
-  {
-    "id": 2,
-    "name": "Pañales tamaño P",
-    "multiple": true
-  },
-  {
-    "id": 3,
-    "name": "Pañales tamaño M",
-    "multiple": true
-  },
-  {
-    "id": 4,
-    "name": "Pañales tamaño G",
-    "multiple": true
-  },
-  {
-    "id": 5,
-    "name": "Pañales tamaño XG",
-    "multiple": true
-  },
-  {
-    "id": 6,
-    "name": "Pañales tamaño XXG o más",
-    "multiple": true
-  },
-  {
-    "id": 7,
-    "name": "Toallitas húmedas recién nacido",
-    "multiple": true
-  },
-  {
-    "id": 8,
-    "name": "Toallitas húmedas regulares",
-    "multiple": true
-  },
-  {
-    "id": 9,
-    "name": "Juguetes baño"
-  },
-  {
-    "id": 10,
-    "name": "Shampoo Simonds"
-  },
-  {
-    "id": 11,
-    "name": "Jabon Simonds"
-  },
-  {
-    "id": 12,
-    "name": "Kit cortar uñas/ Lima uñas"
-  },
-  {
-    "id": 13,
-    "name": "Peine"
-  },
-  {
-    "id": 15,
-    "name": "Limpia mamaderas"
-  },
-  {
-    "id": 16,
-    "name": "Plato para comer con los cubiertos"
-  },
-  {
-    "id": 17,
-    "name": "Baberos",
-    "multiple": true
-  },
-  {
-    "id": 18,
-    "name": "Bolsa para guardar chupete",
-    "link": "https://donramon.com.uy/producto/4036/"
-  },
-  {
-    "id": 19,
-    "name": "Cambiador Portatil"
-  },
-  {
-    "id": 20,
-    "name": "Cambiador rígido para mueble (42cm ancho)"
-  },
-  {
-    "id": 22,
-    "name": "Chupete nuk",
-    "link": "https://tienda.farmashop.com.uy/chupete-nuk-genius-silicona-talle-0-2-unidades.html"
-  },
-  {
-    "id": 23,
-    "name": "Fular/Porta bebé"
-  },
-  {
-    "id": 24,
-    "name": "Móvil de cuna"
-  },
-  {
-    "id": 26,
-    "name": "Mema 260 ml"
-  },
-  {
-    "id": 27,
-    "name": "Mema recien nacido 125 ml"
-  },
-  {
-    "id": 28,
-    "name": "Organizadores para ropa de bebe"
-  },
-  {
-    "id": 29,
-    "name": "Porta chupete",
-    "link": "https://donramon.com.uy/producto/portachupetes-de-silicona/"
-  },
-  {
-    "id": 31,
-    "name": "Cubre colchon impermeable (1,40 x 80 aprox)"
-  },
-  {
-    "id": 32,
-    "name": "Sabanas para bebe (1,40 x 80 aprox)"
-  },
-  {
-    "id": 34,
-    "name": "Alfombra anti golpe"
-  },
-  {
-    "id": 35,
-    "name": "Espejo para el auto"
-  },
-  {
-    "id": 36,
-    "name": "Muselinas",
-    "multiple": true
-  },
-  {
-    "id": 37,
-    "name": "Bolso maternal"
-  },
-  {
-    "id": 38,
-    "name": "Manta  para bebé"
-  },
-  {
-    "id": 39,
-    "name": "Mordillo de silicona"
-  },
-  {
-    "id": 40,
-    "name": "Sonajeros"
-  },
-  {
-    "id": 41,
-    "name": "Calienta mamadera"
-  },
-  {
-    "id": 42,
-    "name": "Discos absorbentes para lactancia"
-  },
-  {
-    "id": 43,
-    "name": "Termómetro de bebé"
-  },
-  {
-    "id": 44,
-    "name": "Rallador de manzana (vidrio)"
-  },
-  {
-    "id": 45,
-    "name": "Kit postparto"
-  },
-  {
-    "id": 46,
-    "name": "Organizador de items de bebé"
-  }
+	{
+		"id": 1,
+		"name": "Pañales recién nacido",
+		"multiple": true
+	},
+	{
+		"id": 2,
+		"name": "Pañales tamaño P",
+		"multiple": true
+	},
+	{
+		"id": 3,
+		"name": "Pañales tamaño M",
+		"multiple": true
+	},
+	{
+		"id": 4,
+		"name": "Pañales tamaño G",
+		"multiple": true
+	},
+	{
+		"id": 5,
+		"name": "Pañales tamaño XG",
+		"multiple": true
+	},
+	{
+		"id": 6,
+		"name": "Pañales tamaño XXG o más",
+		"multiple": true
+	},
+	{
+		"id": 7,
+		"name": "Toallitas húmedas recién nacido",
+		"multiple": true
+	},
+	{
+		"id": 8,
+		"name": "Toallitas húmedas regulares",
+		"multiple": true
+	},
+	{
+		"id": 11,
+		"name": "Jabon Simonds"
+	},
+	{
+		"id": 13,
+		"name": "Peine"
+	},
+	{
+		"id": 15,
+		"name": "Limpia mamaderas"
+	},
+	{
+		"id": 17,
+		"name": "Baberos",
+		"multiple": true
+	},
+	{
+		"id": 18,
+		"name": "Bolsa para guardar chupete",
+		"link": "https://donramon.com.uy/producto/4036/"
+	},
+	{
+		"id": 20,
+		"name": "Cambiador rígido para mueble (42cm ancho)"
+	},
+	{
+		"id": 22,
+		"name": "Chupete nuk",
+		"link": "https://tienda.farmashop.com.uy/chupete-nuk-genius-silicona-talle-0-2-unidades.html"
+	},
+	{
+		"id": 27,
+		"name": "Mema recien nacido 125 ml"
+	},
+	{
+		"id": 28,
+		"name": "Organizadores para ropa de bebe"
+	},
+	{
+		"id": 29,
+		"name": "Porta chupete",
+		"link": "https://donramon.com.uy/producto/portachupetes-de-silicona/"
+	},
+	{
+		"id": 31,
+		"name": "Cubre colchon impermeable (1,40 x 80 aprox)"
+	},
+	{
+		"id": 35,
+		"name": "Espejo para el auto"
+	},
+	{
+		"id": 36,
+		"name": "Muselinas",
+		"multiple": true
+	},
+	{
+		"id": 39,
+		"name": "Mordillo de silicona"
+	},
+	{
+		"id": 40,
+		"name": "Sonajeros"
+	},
+	{
+		"id": 41,
+		"name": "Calienta mamadera"
+	},
+	{
+		"id": 44,
+		"name": "Rallador de manzana (vidrio)"
+	},
+	{
+		"id": 45,
+		"name": "Kit postparto"
+	},
+	{
+		"id": 46,
+		"name": "Organizador de items de bebé",
+		"link": "https://articulo.mercadolibre.com.uy/MLU-618899642-panalera-caddy-organizador-ubbi-mvd-kids-_JM?searchVariation=182195444305#polycard_client=search-nordic&searchVariation=182195444305&search_layout=stack&position=11&type=item&tracking_id=ced9c24c-0111-414b-8a67-f24e767d4518"
+	}
 ]

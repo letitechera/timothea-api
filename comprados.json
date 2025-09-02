@@ -1,27 +1,118 @@
 [
-  {
-    "id": 30,
-    "name": "Extractor leche",
-    "buyer": "Maia & Leti"
-  },
-  {
-    "id": 47,
-    "name": "Bañito",
-    "buyer": "Santi Rosso"
-  },
-  {
-    "id": 48,
-    "name": "Sillita de comer",
-    "buyer": "Karen"
-  },
-  {
-    "id": 49,
-    "name": "Chichonera",
-    "buyer": "Let & Santi"
-  },
-  {
-    "id": 50,
-    "name": "Sillita mecedora",
-    "buyer": "Gigi"
-  }
+	{
+		"id": 30,
+		"name": "Extractor leche",
+		"buyer": "Gladys, Maia & Leti"
+	},
+	{
+		"id": 47,
+		"name": "Bañito",
+		"buyer": "Santi Rosso"
+	},
+	{
+		"id": 48,
+		"name": "Sillita de comer",
+		"buyer": "Karen"
+	},
+	{
+		"id": 49,
+		"name": "Chichonera",
+		"buyer": "Let & Santi"
+	},
+	{
+		"id": 50,
+		"name": "Sillita mecedora",
+		"buyer": "Gigi"
+	},
+	{
+		"id": 1,
+		"name": "Pañales recién nacido",
+		"multiple": true,
+		"buyer": "Mati Techera",
+		"count": 1
+	},
+	{
+		"id": 17,
+		"name": "Baberos",
+		"multiple": true,
+		"buyer": "Mati Techera, Isabella",
+		"count": 2
+	},
+	{
+		"id": 32,
+		"name": "Sabanas para bebe (1,40 x 80 aprox)",
+		"buyer": "Mati Techera"
+	},
+	{
+		"id": 19,
+		"name": "Cambiador Portatil",
+		"buyer": "Bruno, Yani y Vale"
+	},
+	{
+		"id": 37,
+		"name": "Bolso maternal",
+		"buyer": "Ari y Lula"
+	},
+	{
+		"id": 9,
+		"name": "Juguetes baño",
+		"buyer": "YiHsiu"
+	},
+	{
+		"id": 10,
+		"name": "Shampoo Simonds",
+		"buyer": "Tati"
+	},
+	{
+		"id": 42,
+		"name": "Discos absorbentes para lactancia",
+		"buyer": "Tati"
+	},
+	{
+		"id": 12,
+		"name": "Kit cortar uñas/ Lima uñas",
+		"buyer": "Yanire"
+	},
+	{
+		"id": 26,
+		"name": "Mema 260 ml",
+		"buyer": "Carolina Lobecio"
+	},
+	{
+		"id": 43,
+		"name": "Termómetro de bebé",
+		"buyer": "Carolina Lobecio"
+	},
+	{
+		"id": 24,
+		"name": "Móvil de cuna",
+		"buyer": "Liliana"
+	},
+	{
+		"id": 2,
+		"name": "Pañales tamaño P",
+		"multiple": true,
+		"buyer": "Carmen, Sing",
+		"count": 2
+	},
+	{
+		"id": 38,
+		"name": "Manta  para bebé",
+		"buyer": "Lili"
+	},
+	{
+		"id": 16,
+		"name": "Plato para comer con los cubiertos",
+		"buyer": "Mariana"
+	},
+	{
+		"id": 34,
+		"name": "Alfombra anti golpe",
+		"buyer": "Santi y Agus"
+	},
+	{
+		"id": 23,
+		"name": "Fular/Porta bebé",
+		"buyer": "Santi y Agus"
+	}
 ]
