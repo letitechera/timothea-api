@@ -2,12 +2,12 @@
 	{
 		"id": 30,
 		"name": "Extractor leche",
-		"buyer": "Gladys, Maia & Leti"
+		"buyer": "Gladys, Jesús, Maia, Leti & Santi"
 	},
 	{
 		"id": 47,
 		"name": "Bañito",
-		"buyer": "Santi Rosso"
+		"buyer": "Gladys, Jesús, Maia, Leti & Santi"
 	},
 	{
 		"id": 48,
@@ -28,15 +28,15 @@
 		"id": 1,
 		"name": "Pañales recién nacido",
 		"multiple": true,
-		"buyer": "Mati Techera",
-		"count": 1
+		"buyer": "Mati Techera, Yanire, Franco Oktana, Juan y Popi, Juan y Popi",
+		"count": 5
 	},
 	{
 		"id": 17,
 		"name": "Baberos",
 		"multiple": true,
-		"buyer": "Mati Techera, Isabella",
-		"count": 2
+		"buyer": "Mati Techera, Isabella, Anto y Rodri, Gianella, Angelo y Paola, Juan y Popi",
+		"count": 6
 	},
 	{
 		"id": 32,
@@ -92,13 +92,13 @@
 		"id": 2,
 		"name": "Pañales tamaño P",
 		"multiple": true,
-		"buyer": "Carmen, Sing",
-		"count": 2
+		"buyer": "Carmen, Sing, Juan y Popi, Kate",
+		"count": 4
 	},
 	{
 		"id": 38,
 		"name": "Manta  para bebé",
-		"buyer": "Lili"
+		"buyer": "Lili & Mauro"
 	},
 	{
 		"id": 16,
@@ -114,5 +114,107 @@
 		"id": 23,
 		"name": "Fular/Porta bebé",
 		"buyer": "Santi y Agus"
+	},
+	{
+		"id": 41,
+		"name": "Calienta mamadera",
+		"buyer": "Mauri y Jose"
+	},
+	{
+		"id": 46,
+		"name": "Organizador de items de bebé",
+		"link": "https://articulo.mercadolibre.com.uy/MLU-618899642-panalera-caddy-organizador-ubbi-mvd-kids-_JM?searchVariation=182195444305#polycard_client=search-nordic&searchVariation=182195444305&search_layout=stack&position=11&type=item&tracking_id=ced9c24c-0111-414b-8a67-f24e767d4518",
+		"buyer": "Juli y Die"
+	},
+	{
+		"id": 35,
+		"name": "Espejo para el auto",
+		"buyer": "Ine Dami Ali"
+	},
+	{
+		"id": 22,
+		"name": "Chupete nuk",
+		"link": "https://tienda.farmashop.com.uy/chupete-nuk-genius-silicona-talle-0-2-unidades.html",
+		"buyer": "Bianca"
+	},
+	{
+		"id": 8,
+		"name": "Toallitas húmedas regulares",
+		"multiple": true,
+		"buyer": "YiHsiu, Bianca, Kate, Kate",
+		"count": 4
+	},
+	{
+		"id": 7,
+		"name": "Toallitas húmedas recién nacido",
+		"multiple": true,
+		"buyer": "Yanire",
+		"count": 1
+	},
+	{
+		"id": 39,
+		"name": "Mordillo de silicona",
+		"buyer": "Yurgen/Cami"
+	},
+	{
+		"id": 40,
+		"name": "Sonajeros",
+		"buyer": "Yurgen/Cami"
+	},
+	{
+		"id": 3,
+		"name": "Pañales tamaño M",
+		"multiple": true,
+		"buyer": "Yurgen/Cami",
+		"count": 1
+	},
+	{
+		"id": 27,
+		"name": "Mema recien nacido 125 ml",
+		"buyer": "Yurgen/Cami"
+	},
+	{
+		"id": 13,
+		"name": "Peine",
+		"buyer": "Yurgen/Cami"
+	},
+	{
+		"id": 36,
+		"name": "Muselinas",
+		"multiple": true,
+		"buyer": "Maia, Danilo y Karina, Anto y Rodri, Angelo y Paola",
+		"count": 3
+	},
+	{
+		"id": 11,
+		"name": "Jabon Simonds",
+		"buyer": "Gianella"
+	},
+	{
+		"id": 20,
+		"name": "Cambiador rígido para mueble (42cm ancho)",
+		"buyer": "Lili"
+	},
+	{
+		"id": 44,
+		"name": "Rallador de manzana (vidrio)",
+		"buyer": "Emilio"
+	},
+	{
+		"id": 29,
+		"name": "Porta chupete",
+		"link": "https://donramon.com.uy/producto/portachupetes-de-silicona/",
+		"buyer": "Laia"
+	},
+	{
+		"id": 18,
+		"name": "Bolsa para guardar chupete",
+		"link": "https://donramon.com.uy/producto/4036/",
+		"buyer": "Laia"
+	},
+	{
+		"id": 15,
+		"name": "Limpia mamaderas",
+		"buyer": "Flor Yang"
 	}
 ]
